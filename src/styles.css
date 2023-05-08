@@ -1,0 +1,36 @@
+@import "./features/MovieList/movie.css";
+@import "./features/Header/header.css";
+@import "./features/Trailers/trailer.css";
+@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap");
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color: rgba(39, 39, 37, 0.918);
+
+  min-height: 100vh;
+}
+.x-lg-size {
+  font-size: x-large;
+}
+.z2 {
+  z-index: 2;
+}
+.bg-black {
+  background-color: black;
+}
+.p-05 {
+  padding: 0.5rem;
+}
+.checkmark {
+  background-color: black;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.iniline-block {
+  display: inline-block;
+}
